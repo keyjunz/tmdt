@@ -1,0 +1,152 @@
+﻿.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom right, #fffaf0, #f0f8ff);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(218, 112, 214, 0.15);
+    text-align: center;
+}
+
+    .login-container h2 {
+        font-size: 26px;
+        color: #da70d6;
+        margin-bottom: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+        font-family: 'Arial', sans-serif;
+    }
+
+        .login-container h2::after {
+            content: '';
+            display: block;
+            width: 60%;
+            height: 3px;
+            background-color: #dda0dd;
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+
+.form-group {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 600;
+        color: #4b0082;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #d8bfd8;
+        border-radius: 10px;
+        font-size: 14px;
+        outline: none;
+        transition: border-color 0.3s, box-shadow 0.3s;
+        background-color: #fff0f5;
+    }
+
+        .form-group input:focus {
+            border-color: #dda0dd;
+            box-shadow: 0 0 5px rgba(218, 112, 214, 0.4);
+        }
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+    .form-actions button {
+        background: linear-gradient(to right, #ffb6c1, #dda0dd);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.3s, transform 0.3s;
+        color: white;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-actions button:hover {
+            background: linear-gradient(to right, #ff69b4, #ba55d3);
+            transform: translateY(-2px);
+        }
+
+    .form-actions .forgot {
+        font-size: 13px;
+        color: #800080;
+        text-decoration: none;
+    }
+
+        .form-actions .forgot:hover {
+            text-decoration: underline;
+            color: #4b0082;
+        }
+
+.register-option {
+    margin-top: 20px;
+}
+
+    .register-option a {
+        color: #4b0082;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .register-option a:hover {
+            text-decoration: underline;
+            color: #800080;
+        }
+
+.social-login {
+    margin-top: 25px;
+}
+
+    .social-login p {
+        margin-bottom: 10px;
+        color: #666;
+        font-weight: 500;
+    }
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+    .social-buttons a {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        transition: opacity 0.3s;
+        min-width: 120px;
+        text-align: center;
+        font-size: 14px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+.btn-facebook {
+    background-color: #9370DB;
+}
+
+.btn-google {
+    background-color: #FF69B4;
+}
+
+.social-buttons a:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}

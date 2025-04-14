@@ -1,0 +1,65 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+/* FOOTER STYLES - ĐẸP HƠN */
+.footer {
+    background-color: #f8f4f0;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #444;
+    border-top: 2px solid #e0dcd8;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin: 20px 10px;
+}
+
+    .footer-column h4 {
+        font-size: 16px;
+        color: #b98b6e;
+        margin-bottom: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .footer-column p,
+    .footer-column a {
+        margin: 6px 0;
+        text-decoration: none;
+        color: #555;
+        transition: all 0.3s ease;
+    }
+
+        .footer-column a:hover {
+            color: #b98b6e;
+            text-decoration: underline;
+        }
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #888;
+    border-top: 1px solid #ddd;
+}
+
+/* Để body không bị sát vào navbar */
+.container {
+    padding: 20px 30px;
+}
